@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B8CE241C342240005CF215 /* TabsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B8CE231C342240005CF215 /* TabsController.m */; settings = {ASSET_TAGS = (); }; };
-		07E0FFA41C35459500D6540C /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E0FFA21C35459500D6540C /* UIViewController+KNSemiModal.m */; settings = {ASSET_TAGS = (); }; };
-		07E0FFA71C354CE700D6540C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E0FFA61C354CE700D6540C /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		07B8CE241C342240005CF215 /* TabsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B8CE231C342240005CF215 /* TabsController.m */; };
+		07E0FFA41C35459500D6540C /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E0FFA21C35459500D6540C /* UIViewController+KNSemiModal.m */; };
+		07E0FFA71C354CE700D6540C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E0FFA61C354CE700D6540C /* ProfileViewController.m */; };
 		07EC37B01C3568110015AD51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EC37AF1C3568110015AD51 /* MapKit.framework */; };
-		07EC37B31C3568320015AD51 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EC37B21C3568320015AD51 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		07EC37B31C3568320015AD51 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EC37B21C3568320015AD51 /* MapViewController.m */; };
 		07FEB7411C33E06D00B148AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7401C33E06D00B148AE /* main.m */; };
 		07FEB7441C33E06D00B148AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7431C33E06D00B148AE /* AppDelegate.m */; };
 		07FEB7471C33E06D00B148AE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7461C33E06D00B148AE /* LoginViewController.m */; };
@@ -20,8 +20,8 @@
 		07FEB74F1C33E06D00B148AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB74D1C33E06D00B148AE /* LaunchScreen.storyboard */; };
 		07FEB75A1C33E06D00B148AE /* AroundDevTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7591C33E06D00B148AE /* AroundDevTests.m */; };
 		07FEB7651C33E06D00B148AE /* AroundDevUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7641C33E06D00B148AE /* AroundDevUITests.m */; };
-		07FEB7791C33E18F00B148AE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB7771C33E18F00B148AE /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		07FEB77A1C33E18F00B148AE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB7781C33E18F00B148AE /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		07FEB7791C33E18F00B148AE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB7771C33E18F00B148AE /* Bolts.framework */; };
+		07FEB77A1C33E18F00B148AE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB7781C33E18F00B148AE /* Parse.framework */; };
 		07FEB77C1C33E22E00B148AE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB77B1C33E22E00B148AE /* Accounts.framework */; };
 		07FEB77E1C33E24100B148AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB77D1C33E24100B148AE /* AudioToolbox.framework */; };
 		07FEB7801C33E24800B148AE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB77F1C33E24800B148AE /* CFNetwork.framework */; };
@@ -34,10 +34,10 @@
 		07FEB78E1C33E27100B148AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB78D1C33E27100B148AE /* SystemConfiguration.framework */; };
 		07FEB7901C33E27600B148AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB78F1C33E27600B148AE /* libz.tbd */; };
 		07FEB7921C33E27F00B148AE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEB7911C33E27F00B148AE /* libsqlite3.tbd */; };
-		07FEB7951C33E81C00B148AE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB7941C33E81C00B148AE /* logo.png */; settings = {ASSET_TAGS = (); }; };
-		07FEB7981C33EEB300B148AE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7971C33EEB300B148AE /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
-		07FEB79E1C3402FB00B148AE /* LoggedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB79D1C3402FB00B148AE /* LoggedViewController.m */; settings = {ASSET_TAGS = (); }; };
-		07FEB7A01C340EB800B148AE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB79F1C340EB800B148AE /* icon.png */; settings = {ASSET_TAGS = (); }; };
+		07FEB7951C33E81C00B148AE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB7941C33E81C00B148AE /* logo.png */; };
+		07FEB7981C33EEB300B148AE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7971C33EEB300B148AE /* RegisterViewController.m */; };
+		07FEB79E1C3402FB00B148AE /* LoggedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB79D1C3402FB00B148AE /* LoggedViewController.m */; };
+		07FEB7A01C340EB800B148AE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB79F1C340EB800B148AE /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,6 +319,7 @@
 				TargetAttributes = {
 					07FEB73B1C33E06C00B148AE = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G4N38Z8MXQ;
 					};
 					07FEB7541C33E06D00B148AE = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -533,6 +534,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -541,6 +544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ard.AroundDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -548,6 +552,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -556,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ard.AroundDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
