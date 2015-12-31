@@ -209,11 +209,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CBY-7B-63k" customClass="TabsController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Zfm-3Z-7bx">
-                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="045-JW-ib2">
-                            <connections>
-                                <action selector="logOut:" destination="CBY-7B-63k" id="2Qa-Or-rIs"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="045-JW-ib2"/>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="C4F-fo-ZFa">
                         <autoresizingMask key="autoresizingMask"/>
@@ -267,6 +263,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oB1-tx-SwA">
+                                <rect key="frame" x="223" y="55" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="logOut:" destination="Osn-Aa-64L" eventType="touchUpInside" id="anX-6K-cZ9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -300,7 +304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eZV-QE-VcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1158" y="1841"/>
+            <point key="canvasLocation" x="1163" y="1841"/>
         </scene>
     </scenes>
     <resources>
