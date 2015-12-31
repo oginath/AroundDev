@@ -30,6 +30,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)logOut:(id)sender {
+    [PFUser logOut];
+    UIViewController* loginVC = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginVC"];
+    [self.parentViewController presentViewController:loginVC animated:YES completion:nil];
+
+}
 
 /*
 #pragma mark - Navigation

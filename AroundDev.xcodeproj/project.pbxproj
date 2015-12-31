@@ -12,6 +12,7 @@
 		07E0FFA71C354CE700D6540C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E0FFA61C354CE700D6540C /* ProfileViewController.m */; };
 		07EC37B01C3568110015AD51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EC37AF1C3568110015AD51 /* MapKit.framework */; };
 		07EC37B31C3568320015AD51 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EC37B21C3568320015AD51 /* MapViewController.m */; };
+		07EC37B51C3582F60015AD51 /* default-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EC37B41C3582F60015AD51 /* default-profile.png */; settings = {ASSET_TAGS = (); }; };
 		07FEB7411C33E06D00B148AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7401C33E06D00B148AE /* main.m */; };
 		07FEB7441C33E06D00B148AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7431C33E06D00B148AE /* AppDelegate.m */; };
 		07FEB7471C33E06D00B148AE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB7461C33E06D00B148AE /* LoginViewController.m */; };
@@ -67,6 +68,7 @@
 		07EC37AF1C3568110015AD51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		07EC37B11C3568320015AD51 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		07EC37B21C3568320015AD51 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		07EC37B41C3582F60015AD51 /* default-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-profile.png"; sourceTree = "<group>"; };
 		07FEB73C1C33E06D00B148AE /* AroundDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FEB7401C33E06D00B148AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07FEB7421C33E06D00B148AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 		07FEB7931C33E81400B148AE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				07EC37B41C3582F60015AD51 /* default-profile.png */,
 				07FEB79F1C340EB800B148AE /* icon.png */,
 				07FEB7941C33E81C00B148AE /* logo.png */,
 			);
@@ -359,6 +362,7 @@
 				07FEB7951C33E81C00B148AE /* logo.png in Resources */,
 				07FEB7A01C340EB800B148AE /* icon.png in Resources */,
 				07FEB74F1C33E06D00B148AE /* LaunchScreen.storyboard in Resources */,
+				07EC37B51C3582F60015AD51 /* default-profile.png in Resources */,
 				07FEB74C1C33E06D00B148AE /* Assets.xcassets in Resources */,
 				07FEB74A1C33E06D00B148AE /* Main.storyboard in Resources */,
 			);

@@ -49,7 +49,10 @@
     [PFUser logInWithUsernameInBackground:uname password:upass
      block:^(PFUser *user, NSError *error) {
       if (user) {
-          [self performSegueWithIdentifier:@"LoggedFromLogin" sender:sender];
+          userName.text = @"";
+          userPass.text =@"";
+          UIViewController* LoggedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"LoggedVC"];
+          [self.parentViewController presentViewController:LoggedVC animated:YES completion:nil];
 
       } else {
           errorText.text = [error localizedDescription];

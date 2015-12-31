@@ -15,4 +15,3 @@
 @property (weak, nonatomic) IBOutlet UILabel *errorText;
 
 @end
-

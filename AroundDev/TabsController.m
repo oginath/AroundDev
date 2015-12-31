@@ -47,19 +47,10 @@
     
 }
 
-- (IBAction)logOut:(id)sender {
-    [PFUser logOut];
-    [self.navigationController popViewControllerAnimated:YES];
-    
-}
-
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     NSString* vcName = [viewController title];
     
     if ([vcName isEqualToString:@"ProfilePlaceholderVC"]) {
-        
-
-        
         [self presentSemiViewController:profileVC];
         
         return NO;

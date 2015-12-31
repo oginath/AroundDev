@@ -25,6 +25,7 @@
     [super viewDidLoad];
     userPassword.secureTextEntry = YES;
     userConfirmPass.secureTextEntry = YES;
+    self.navigationController.navigationBar.topItem.title = @"";
 
     // Do any additional setup after loading the view.
 }
@@ -44,7 +45,8 @@
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-            [self performSegueWithIdentifier:@"LoggedFromRegister" sender:sender];
+            UIViewController* LoggedVC = [self.storyboard instantiateViewControllerWithIdentifier:@"LoggedVC"];
+            [self.parentViewController presentViewController:LoggedVC animated:YES completion:nil];
         }
         else {
             errorText.text = [error localizedDescription];
